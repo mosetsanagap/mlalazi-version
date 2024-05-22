@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WARNER BROS MOVIES AND TV SHOWS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  	<link rel="icon" type="image/x-icon" href="2.ico">
+
+</head>
+<style>
+body{
+background-image:url('90.jpg');
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  margin: 0;
+  padding: 0;
+}
+
+  /* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: lightblue;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: black;
+  color: lightblue;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color:black;
+  color: lightblue;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 10ovh;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.sidebar a {
+  text-decoration: none; /* Remove underline */
+  display: flex; /* Allow for inline positioning */
+  align-items: center; /* Align icons vertically */
+}
+
+.sidebar a .icon {
+  margin-right: 10px; /* Add spacing between icon and text */
+}
+
+.sidebar a span {
+  font-size: 18px; /* Adjust icon size as needed */
+}
+
+.card{background-color:black}
+
+.card-title, .card-text{color:lightblue;}
+
+.navbar navbar-expand-lg navbar-dark bg-dark mt-3{
+background-color:black;}
+ul li a {color:lightblue;
+}
+.footer a { /* Target all links inside the footer */
+  color: inherit; /* Inherit the text color from the footer */
+}
+
+.footer a:hover { /* Target links on hover */
+  color: lightblue; /* Change color to lightblue on hover */
+  text-decoration: none; /* Remove underline decoration */
+}
+
+.footer .fab { /* Target Font Awesome icons with class "fab" */
+  font-size: 20px; /* Set the font size of the icons */
+  margin-right: 10px; /* Add spacing between icons */
+}
+
+
+</style>
+<body>
+
+	
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-3">
+    <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="background.png" alt="Logo" width="50" height="50">WARNER BROS</a>
+	
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+     
+        </ul>
+		
+  <!-- Logo and Search Bar -->
+  <div class="co">
+   
+    <div class="row mt-3">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Search Movies and TV Shows">
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+  </nav>
+
+
+
+       <!-- Movie Content -->
+    
+        <h2>HORROR</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+             <a href="jumanji.html" ><img src="movies/1.jpeg" class="card-img-top" alt="Popular Movie 1" height="350" height="150"></a>
+              <div class="card-body">
+                <h5 class="card-title">BEAUTY AND THE BEAST</h5>
+                <p class="card-text">Disney fairy tale about a monstrous-looking prince and a young woman who fall in love.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+               <a href="jumanji.html" ><img src="movies/2.jpg" class="card-img-top" alt="Popular Movie 2" height="350" height="150"></a>
+
+              <div class="card-body">
+                <h5 class="card-title">DO REVENGE</h5>
+                <p class="card-text">Drea and Eleanor agree to go after one another's<br> bullies.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+               <a href="jumanji.html" ><img src="movies/3.jpeg" class="card-img-top" alt="Popular Movie 3" height="350" height="150"></a>
+              <div class="card-body">
+                <h5 class="card-title">ZOOTOPIA</h5>
+                <p class="card-text">A  bunny cop and a cynical con artist fox must work together to uncover a conspiracy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="mt-5">More</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="movies/4.jpg" class="card-img-top" alt="New Movie 1"height="400" height="150">
+              <div class="card-body">
+                <h5 class="card-title">SPIDER MAN far from home</h5>
+                <p class="card-text">Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.</p>
+              </div>
+            </div>
+          </div>
+         
+		  <div class="col-md-4">
+            <div class="card">
+              <img src="movies/7.jpg" class="card-img-top" alt="New Movie 2"height="400" height="150">
+              <div class="card-body">
+                <h5 class="card-title">THE NUN</h5>
+                <p class="card-text">A priest with a haunted past on the threshold of her final vows are sent by the Vatican to investigate death of a nun.</p>
+              </div>
+            </div>
+          </div>
+		   <div class="col-md-4">
+            <div class="card">
+              <img src="movies/6.jpg" class="card-img-top" alt="New Movie 2" height="400" height="150">
+              <div class="card-body">
+                <h5 class="card-title">TURNING RED</h5>
+                <p class="card-text">A thirteen-year-old girl named Mei Lee is torn between staying her mother's dutiful daughter and the changes of adolescence.</p>
+              </div>
+            </div>
+          </div>
+         
+
+</body>
+<!-- Footer -->
+ <footer class="bg-dark text-light text-center py-3 mt-3">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h5>Social Media</h5>
+        <a href="https://www.facebook.com/warnerbrosent" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/WBHomeEnt" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/warnerbrosentertainment/" class="text-light"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="col">
+        <h5>Collections</h5>
+         <a href="collections.html" class="text-light me-3"> <p>Explore our various collections</p></a>
+      </div>
+      <div class="col">
+    <h5>Legal and Privacy</h5>
+         <a href="privacy.html" class="text-light me-3"><p>Privacy Policy</p></a>
+		    <a href="terms of services.html" class="text-light me-3"><p>Terms of Service</p></a>
+        <p>&copy; 2023 Movie Website</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+</html>

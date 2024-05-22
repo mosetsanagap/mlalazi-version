@@ -1,0 +1,79 @@
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for specific elements like navbar, cards, etc. */
+.navbar {
+  background-color: #222;
+  color: #fff;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+.wb-footer {
+  /* Consistent height and responsiveness */
+  min-height: 80px; /* Adjust as needed for desired minimum height */
+  display: flex; /* Allow vertical alignment and content wrapping */
+  align-items: center; /* Vertically center content within footer */
+}
+
+.wb-footer .container {
+  /* Consistent width for content area */
+  width: 80%; /* Adjust as needed for desired content width */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.wb-footer .row {
+  /* Ensure columns fully span footer width */
+  justify-content: space-between; /* Evenly distribute columns */
+}
+
+.wb-footer .col {
+  /* Consistent column width */
+  flex: 1; /* Make columns equal size */
+  text-align: left; /* Align content within columns to the left */
+}
+
+.wb-footer h5 {
+  /* Consistent heading size */
+  font-size: 16px; /* Adjust as needed for heading size */
+  margin-bottom: 5px; /* Add spacing below headings */
+}
+
+.wb-footer p {
+  /* Consistent paragraph size */
+  font-size: 14px; /* Adjust as needed for paragraph size */
+  line-height: 1.5; /* Improve readability with line spacing */
+}
+
+.wb-footer p:last-child {
+  /* Adjust spacing for copyright notice */
+  margin-top: 10px; /* Add spacing above copyright */
+}
+
+.wb-footer a {
+  /* Consistent link style */
+  color: inherit; /* Inherit text color from footer */
+  text-decoration: none; /* Remove underline by default */
+  transition: color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.wb-footer a:hover {
+  /* Define hover color for links */
+  color: #ccc; /* Adjust as needed for hover color */
+}
+
+/* You can add more styles as needed */
